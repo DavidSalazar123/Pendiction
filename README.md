@@ -1,5 +1,5 @@
 # Pendiction
-Utilizing convolutional neural network VGG16 inorder to predict where penalty kickers direct ball and where goalies dive to save penalty kick
+Utilizing convolutional neural network DenseNet121 inorder to predict where penalty kickers direct ball and where goalies dive to save penalty kick
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/20dasalazar/) 
 
@@ -13,7 +13,7 @@ Utilizing convolutional neural network VGG16 inorder to predict where penalty ki
 
 ## TLDR
 
-Create a convolutional neural network by transfer learning of [imagenet](https://www.image-net.org/) with VGG16 while reducing overfitting techniques with batch normalization, dropout techniques, and image augmentation. Pendiction model is able to predict 96% of penalty kickers' direction before striking the ball and 86% of goalies' direction of dive to prevent penalty kick
+Create a convolutional neural network by transfer learning of [imagenet](https://www.image-net.org/) with DenseNet121 while reducing overfitting techniques with batch normalization, dropout techniques, and image augmentation. Pendiction model is able to predict 98% of penalty kickers' direction before striking the ball and 91% of goalies' direction of dive to prevent penalty kick
 
 ## Introduction
 
@@ -29,7 +29,7 @@ Collecting data was quite annoying and tricky. Inorder to grab data for this pro
 
 Right and left penalty kicks had ~800 images and and center images ~300 images due to taking a center penalty kick being "very risky" in the penalty kicks since that is where the goalie typically stands before kick is taken. Since this is image classification problem, we would need to use a convultional neural network inorder to predict the images of when the player comes up to take the penalty kick. Instead of trying to start from scratch, I decided to use transfer learning from imagenet to incorporate within DenseNet121 inorder to get weights that are pretrained on recognizing shapes and patterns.
 
-Since the dataset we are working with is very small, I implemented some overfitting reduction techniques within the VGG16 model:
+Since the dataset we are working with is very small, I implemented some overfitting reduction techniques within the DenseNet121 model:
 - 2 learnable dense layers with dropout probability of .5
 - Batchnormalization with two dense layers
 - Image augmentation sequence
@@ -45,8 +45,8 @@ The same technique and images were used to train a separate model that predicts 
 
 ## Results
 
-After running the penalty kicker model for 10 epochs, model was able to produce results of 86% accuracy.
-After running the goalie keeper model for 5 epochs, model was able to produce results of 97% accuracy
+After running the penalty kicker model for 10 epochs, model was able to produce results of 98% accuracy.
+After running the goalie keeper model for 5 epochs, model was able to produce results of 91% accuracy
 
 ## Potential Issues
 
