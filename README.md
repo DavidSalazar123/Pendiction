@@ -3,8 +3,6 @@ Utilizing convolutional neural network DenseNet121 inorder to predict where pena
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/20dasalazar/) 
 
-Link to dataset:https://drive.google.com/drive/folders/1ZcgRLjLIpAEywxtD2TONPQ1jTsRERTeb?usp=sharing 
-
 ## Table of Contents
 1. [TLDR](#tldr)
 2. [Introduction](#introduction)
@@ -12,6 +10,7 @@ Link to dataset:https://drive.google.com/drive/folders/1ZcgRLjLIpAEywxtD2TONPQ1j
 4. [Results](#results)
 5. [Potential Issues](#potential-issues)
 6. [Future Plans](#future-plans)
+7. [Dataset](#dataset)
 
 ## TLDR
 
@@ -63,3 +62,7 @@ After running the goalie keeper model for 5 epochs, model was able to produce re
 
 2. Grab equal datasets of both left and right footed players inorder to remove bias
 3. Try Strat K-Fold inorder to see if accuracy improves or generalization
+
+## Dataset
+
+Dataset used to train model: shorturl.at/cHJX9
