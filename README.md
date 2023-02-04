@@ -65,4 +65,4 @@ After running the goalie keeper model for 5 epochs, model was able to produce re
 
 ## Dataset
 
-Dataset used to train model: shorturl.at/cHJX9
+![Dataset](shorturl.at/cHJX9) used to train model
