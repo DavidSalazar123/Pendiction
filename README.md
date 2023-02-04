@@ -65,4 +65,4 @@ After running the goalie keeper model for 5 epochs, model was able to produce re
 
 ## Dataset
 
-![Dataset](https://drive.google.com/drive/folders/1ZcgRLjLIpAEywxtD2TONPQ1jTsRERTeb?usp=sharing) used to train model
+Dataset used to train model: https://drive.google.com/drive/folders/1ZcgRLjLIpAEywxtD2TONPQ1jTsRERTeb?usp=sharing
