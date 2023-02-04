@@ -3,6 +3,8 @@ Utilizing convolutional neural network DenseNet121 inorder to predict where pena
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/20dasalazar/) 
 
+Link to dataset:https://drive.google.com/drive/folders/1ZcgRLjLIpAEywxtD2TONPQ1jTsRERTeb?usp=sharing 
+
 ## Table of Contents
 1. [TLDR](#tldr)
 2. [Introduction](#introduction)
